@@ -1,0 +1,87 @@
+.card {
+    margin-bottom: 20px;
+    
+    border: none
+}
+.bodyl {
+    position: absolute;
+    z-index: -1;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.box {
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    border-radius: 20px;
+    background: #ffffff;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 160px
+}
+
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: black;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color:#f7cca6 ;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: linear-gradient(to right, #302b63, 60%, black );
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0f0c29;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background:linear-gradient(to right, black, 40%, #302b63 );
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+.error-message{
+    position: absolute;
+    top : 500px;
+    left: 590px;
+    width: 340px;
+    text-align: center;
+}
