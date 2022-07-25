@@ -4,17 +4,14 @@
 
 <table>
   <tr>
-      <td>
-        <a href="https://github.com/Nil3110">Nilotpal Ghosh</a>
+    <td>
+            <a href="https://github.com/NIks3s">Nikunj Baid</a>
         </td>
-      <td>
-        <a href="https://github.com/SheenaNarula">Sheena Narula</a>
+        <td>
+        <a href="https://github.com/Chandu-A-B">Chandu A B</a>
         </td>
-      <td>
-        <a href="https://github.com/rishabhthakral">Rishabh Thakral</a>
-        </td>
-      <td>
-        <a href="https://github.com/haseebraza123">Haseeb Raza</a>
+        <td>
+            <a href="https://github.com/Navyachowdary9908">Nelluri Navyasree</a>
         </td>
     </tr>
 </table>
@@ -46,5 +43,6 @@
   * #### --Application Properties Toggle :<br/>
       spring.application.name=AuditBenchmark<br/>
       server.port=8250<br/>
-      server.servlet.context-path=/benchmark<br/>
+      spring.datasource.url=jdbc:h2:mem:benchmarkdb<br/>
+      spring.h2.console.path=/db<br/>
       User Database : H2(In-Memory)<br/>
