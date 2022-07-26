@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mfpe.pod1cohort087</groupId>
-	<artifactId>Audit-Authorization</artifactId>
+	<artifactId>audit-authorization</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Audit-Authorization</name>
+	<name>audit-authorization</name>
 	<description>Audit Authorization Microservice for MFPE</description>
 	<properties>
 		<java.version>16</java.version>
@@ -84,7 +84,7 @@
 	
 	<!-- JAR CREATION -->
 	<build>
-        <finalName>MFPE-AuthorizationMS-JAR</finalName>
+        <finalName>audit-authorization</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -4,11 +4,11 @@
 
 <table>
   <tr>
-       <td>
-            <a href="https://github.com/NIks3s">Nikunj Baid</a>
+      <td>
+            <a href="https://github.com/Chandu-A-B">Chandu A B</a>
         </td>
         <td>
-        <a href="https://github.com/Chandu-A-B">Chandu A B</a>
+            <a href="https://github.com/NIks3s">Nikunj Baid</a>
         </td>
         <td>
             <a href="https://github.com/Navyachowdary9908">Nelluri Navyasree</a>

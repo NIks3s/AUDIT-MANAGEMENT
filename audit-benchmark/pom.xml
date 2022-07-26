@@ -61,7 +61,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>MFPE-BenchmarkMS-JAR</finalName>
+	<finalName>audit-benchmark</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

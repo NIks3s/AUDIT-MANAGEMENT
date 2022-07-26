@@ -4,11 +4,11 @@
 
 <table>
   <tr>
-        <td>
-            <a href="https://github.com/NIks3s">Nikunj Baid</a>
+      <td>
+            <a href="https://github.com/Chandu-A-B">Chandu A B</a>
         </td>
         <td>
-        <a href="https://github.com/Chandu-A-B">Chandu A B</a>
+            <a href="https://github.com/NIks3s">Nikunj Baid</a>
         </td>
         <td>
             <a href="https://github.com/Navyachowdary9908">Nelluri Navyasree</a>
@@ -53,7 +53,7 @@
   * #### --Dependencies on Other microsevices : **None**
 
   * #### --Application Properties Toggle :<br/>
-     JAR name = MFPE-AuthorizationMS-JAR<br/>
+      JAR name = MFPE-AuthorizationMS-JAR<br/>
       server.port=8100<br/>
       spring.datasource.url=jdbc:h2:mem:mydb<br/>
       spring.h2.console.path=/auth/db<br/>

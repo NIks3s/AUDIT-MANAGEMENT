@@ -61,7 +61,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>MFPE-ChecklistMS-JAR</finalName>
+	<finalName>audit-checklist</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

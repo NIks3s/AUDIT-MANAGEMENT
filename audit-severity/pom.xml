@@ -65,7 +65,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>MFPE-SeverityMS-JAR</finalName>
+	<finalName>audit-severity</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

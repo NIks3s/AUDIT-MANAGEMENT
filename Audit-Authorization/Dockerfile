@@ -1,4 +1,4 @@
-FROM openjdk:17
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM openjdk:16
+EXPOSE 8100
+ADD target/audit-authorization.jar audit-authorization.jar
+ENTRYPOINT ["java","-jar","/audit-authorization.jar"]
